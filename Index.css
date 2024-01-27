@@ -1,0 +1,18 @@
+#top {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+#subheader {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+#logo {
+    width: 200px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
