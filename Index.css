@@ -16,3 +16,11 @@
     margin-right: auto;
     width: 50%;
 }
+#align {
+    align-items: center;
+}
+.launch {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
