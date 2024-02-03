@@ -1,16 +1,21 @@
 #top {
-    text-align: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 30px;
-    padding-top: 350px;
+    padding-top: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #subheader {
     font-weight: bold;
     text-decoration: underline;
     font-size: 20px;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #logo {
-    padding-top: 200px;
     width: 200px;
     align-items: center;
     display: block;
@@ -22,10 +27,12 @@
     align-items: center;
 }
 .launch {
+    display: block;
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    display: block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar {
     overflow: hidden;
@@ -34,6 +41,7 @@
     top: 0;
     width: 100%;
     padding-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
 .navbar a {
@@ -43,6 +51,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   
 .navbar a:hover {
@@ -52,4 +61,28 @@
 
 #text {
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px 70px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+div {
+    float: left;
+}
+.appstore {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flexbox;
+}
+
+.page {
+    padding-top: 500px;
+    padding-bottom: 500px;
 }

@@ -1,6 +1,7 @@
 <html>
     <title>Locked</title>
     <link rel = "stylesheet" href = "Index.css">
+    <link rel = "stylesheet" href = "Animation.css">
     <div class="navbar">
         <a href = "Home.html">Home</a>
         <a href = "About Us.html">About Us</a>
@@ -10,12 +11,16 @@
     </div>
     <head>
         <header>
-            <h1 id = "top">Welcome to Locked</h1>
-            <img id = "logo" src = "https://cdn.discordapp.com/attachments/1038294295863627828/1177087479778660442/Untitled_Artwork.png?ex=65c449a4&is=65b1d4a4&hm=352bacc80ef412e08b9a13850c1735777ad829f481b4213b4ba4663cbb075b87&"
-             alt = "Locked Logo">
+            <div>
+                <img id = "logo" src = "https://cdn.discordapp.com/attachments/1038294295863627828/1177087479778660442/Untitled_Artwork.png?ex=65c449a4&is=65b1d4a4&hm=352bacc80ef412e08b9a13850c1735777ad829f481b4213b4ba4663cbb075b87&"
+                alt = "Locked Logo">
+            </div>
+            <div style = "width: auto; overflow: hidden;">
+                <div id = "top" class = "fade-in">Welcome to Locked</div>
+            </div>
         </header>
     </head>
-    <body style = "background-color: #E3DAC8;">
+    <body style = "background-color: #E3DAC8;" class = "fade-in">
         <h1 id = "subheader">Our Mission</h1>
         <p1 id = "text">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi 
@@ -34,10 +39,18 @@
             consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
         </p3>
-        <div id = "align">
-            <p4 class = "launch">
-                App launching on 2/10/24
-            </p4>
-        </div>
     </body>
+    <div id = "align">
+        <p4 class = "launch">
+            App launching on 2/10/24
+        </p4>
+    </div>
+    <div id = "download">
+        <div>
+            <a href="/" tabIndex="0"><img class="appstore" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"alt="Apple Store Button"/></a>
+        </div>
+        <div>
+            <a href="/" tabIndex="0"><img class="appstore" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"alt="Play Store Button"/></a>
+        </div>
+    </div>
 </html>
