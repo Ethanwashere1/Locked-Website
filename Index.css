@@ -6,14 +6,14 @@
     font-size: 30px;
     padding-top: 10px;
     color: #595959;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
 }
 #subheader {
     font-weight: bold;
     text-decoration: underline;
     font-size: 20px;
     color: #595959;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
 }
 #logo {
     width: 200px;
@@ -32,7 +32,7 @@
     font-size: 50px;
     font-weight: bold;
     color: #595959;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
 }
 .navbar {
     overflow: hidden;
@@ -41,7 +41,7 @@
     top: 0;
     width: 100%;
     padding-right: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
 }
   
 .navbar a {
@@ -51,7 +51,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
 }
   
 .navbar a:hover {
@@ -61,7 +61,7 @@
 
 #text {
     color: #595959;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter';
     padding: 20px 30px;
 }
 
